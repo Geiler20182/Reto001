@@ -3,7 +3,7 @@ package Planes
 class PlanPremiun extends Plan {
     
         
-    _nombre = "PLAN PREMIUN"
+    _nombre = "+++ PLAN PREMIUN +++"
     _precio = 48.230
     _descripcion = "Con contenido HD, UltraHD y hasta 4 reproducciones simultáneas y mas de 15 descargas disponibles."
     _pantallas = 4

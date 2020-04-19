@@ -2,7 +2,7 @@ package Planes
 
 class PlanEstandar extends Plan {
 
-    _nombre = "PLAN PREMIUN"
+    _nombre = "++ PLAN ESTANDAR ++"
     _precio = 34.750
     _descripcion = "Con contenido HD, UltraHD y hasta 4 reproducciones simultáneas y 5 descargar disponibles."
     _pantallas = 2
