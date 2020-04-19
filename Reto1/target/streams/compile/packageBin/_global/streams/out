@@ -1,0 +1,31 @@
+[0m[[0m[0mdebug[0m] [0m[0mPackaging C:\Users\Mejia\Desktop\POO-SCALA\Reto1\target\scala-2.12\reto1_2.12-0.1.0-SNAPSHOT.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Complemento[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\Mejia\Desktop\POO-SCALA\Reto1\target\scala-2.12\classes\Complemento[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Complemento\Pelicula.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\Mejia\Desktop\POO-SCALA\Reto1\target\scala-2.12\classes\Complemento\Pelicula.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Complemento\Plan.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\Mejia\Desktop\POO-SCALA\Reto1\target\scala-2.12\classes\Complemento\Plan.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Complemento\Registro.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\Mejia\Desktop\POO-SCALA\Reto1\target\scala-2.12\classes\Complemento\Registro.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Netflix[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\Mejia\Desktop\POO-SCALA\Reto1\target\scala-2.12\classes\Netflix[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Netflix\Netflix$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\Mejia\Desktop\POO-SCALA\Reto1\target\scala-2.12\classes\Netflix\Netflix$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Netflix\Netflix.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\Mejia\Desktop\POO-SCALA\Reto1\target\scala-2.12\classes\Netflix\Netflix.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Test[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\Mejia\Desktop\POO-SCALA\Reto1\target\scala-2.12\classes\Test[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Test\HelloWorld$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\Mejia\Desktop\POO-SCALA\Reto1\target\scala-2.12\classes\Test\HelloWorld$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Test\HelloWorld.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\Mejia\Desktop\POO-SCALA\Reto1\target\scala-2.12\classes\Test\HelloWorld.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Usuarios[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\Mejia\Desktop\POO-SCALA\Reto1\target\scala-2.12\classes\Usuarios[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Usuarios\Usuario.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\Mejia\Desktop\POO-SCALA\Reto1\target\scala-2.12\classes\Usuarios\Usuario.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Usuarios\UsuarioAdmin.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\Mejia\Desktop\POO-SCALA\Reto1\target\scala-2.12\classes\Usuarios\UsuarioAdmin.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Usuarios\UsuarioNormal.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\Mejia\Desktop\POO-SCALA\Reto1\target\scala-2.12\classes\Usuarios\UsuarioNormal.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mDone packaging.[0m
