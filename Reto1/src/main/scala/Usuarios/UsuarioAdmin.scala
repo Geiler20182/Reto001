@@ -2,6 +2,8 @@ package Usuarios
 
 import Netflix._
 import Complemento._
+import Planes._
+
 import util.control.Breaks._
 
 class UsuarioAdmin extends Usuario {

@@ -1,6 +1,7 @@
 package Usuarios
 
 import Complemento._
+import Planes._
 
 class UsuarioNormal extends Usuario {
 
