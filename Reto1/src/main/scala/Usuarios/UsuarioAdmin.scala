@@ -65,18 +65,15 @@ class UsuarioAdmin extends Usuario {
         }
     }
 
-    def peliculasMasVistas() : List[Pelicula] = {
+    /* def peliculasMasVistas() : List[Pelicula] = {
 
-        
+
     }
 
     def peliculasMenosVistas() : List[Pelicula] = {
 
-    } 
+    }  */
 
-    def crearUsuarioAdmin(Usuario nuevo_usuario_admin ) {
 
-    }
-*/
 
 }

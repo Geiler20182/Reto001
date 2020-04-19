@@ -1,7 +1,11 @@
-[0m[[0m[31merror[0m] [0m[0mC:\Users\Mejia\Desktop\POO-SCALA\Reto1\src\main\scala\Usuarios\UsuarioAdmin.scala:77:35: ':' expected but identifier found.[0m
-[0m[[0m[31merror[0m] [0m[0m    def crearUsuarioAdmin(Usuario nuevo_usuario_admin ) {[0m
-[0m[[0m[31merror[0m] [0m[0m                                  ^[0m
-[0m[[0m[31merror[0m] [0m[0mC:\Users\Mejia\Desktop\POO-SCALA\Reto1\src\main\scala\Usuarios\UsuarioAdmin.scala:82:1: identifier expected but '}' found.[0m
-[0m[[0m[31merror[0m] [0m[0m}[0m
-[0m[[0m[31merror[0m] [0m[0m^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Mejia\Desktop\POO-SCALA\Reto1\src\main\scala\Usuarios\UsuarioAdmin.scala:68:49: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : Unit[0m
+[0m[[0m[31merror[0m] [0m[0m required: List[Complemento.Pelicula][0m
+[0m[[0m[31merror[0m] [0m[0m    def peliculasMasVistas() : List[Pelicula] = {[0m
+[0m[[0m[31merror[0m] [0m[0m                                                ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Mejia\Desktop\POO-SCALA\Reto1\src\main\scala\Usuarios\UsuarioAdmin.scala:73:51: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : Unit[0m
+[0m[[0m[31merror[0m] [0m[0m required: List[Complemento.Pelicula][0m
+[0m[[0m[31merror[0m] [0m[0m    def peliculasMenosVistas() : List[Pelicula] = {[0m
+[0m[[0m[31merror[0m] [0m[0m                                                  ^[0m
 [0m[[0m[31merror[0m] [0m[0mtwo errors found[0m
