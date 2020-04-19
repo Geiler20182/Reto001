@@ -1,7 +1,7 @@
 package Usuarios
 
 import Complemento._
-
+import Planes._
 
 class Usuario {
     

@@ -1,77 +1,80 @@
 [0m[[0m[0mdebug[0m] [0m[0m[0m
 [0m[[0m[0mdebug[0m] [0m[0mInitial source changes: [0m
-[0m[[0m[0mdebug[0m] [0m[0m	removed:Set(C:\Users\Mejia\Desktop\POO-SCALA\Reto1\src\main\scala\Complemento\Plan.scala)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	added: Set(C:\Users\Mejia\Desktop\POO-SCALA\Reto1\src\main\scala\Planes\PlanPremiun.scala, C:\Users\Mejia\Desktop\POO-SCALA\Reto1\src\main\scala\Planes\Plan.scala, C:\Users\Mejia\Desktop\POO-SCALA\Reto1\src\main\scala\Planes\PlanBasico.scala, C:\Users\Mejia\Desktop\POO-SCALA\Reto1\src\main\scala\Planes\PlanEstandar.scala)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	modified: Set(C:\Users\Mejia\Desktop\POO-SCALA\Reto1\src\main\scala\Usuarios\UsuarioNormal.scala, C:\Users\Mejia\Desktop\POO-SCALA\Reto1\src\main\scala\Netflix\Netflix.scala, C:\Users\Mejia\Desktop\POO-SCALA\Reto1\src\main\scala\Test\Test.scala, C:\Users\Mejia\Desktop\POO-SCALA\Reto1\src\main\scala\Usuarios\UsuarioAdmin.scala)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	removed:Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0m	added: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0m	modified: Set(C:\Users\Mejia\Desktop\POO-SCALA\Reto1\src\main\scala\Planes\PlanPremiun.scala, C:\Users\Mejia\Desktop\POO-SCALA\Reto1\src\main\scala\Planes\Plan.scala, C:\Users\Mejia\Desktop\POO-SCALA\Reto1\src\main\scala\Planes\PlanBasico.scala, C:\Users\Mejia\Desktop\POO-SCALA\Reto1\src\main\scala\Planes\PlanEstandar.scala)[0m
 [0m[[0m[0mdebug[0m] [0m[0mInvalidated products: Set()[0m
 [0m[[0m[0mdebug[0m] [0m[0mExternal API changes: API Changes: Set()[0m
 [0m[[0m[0mdebug[0m] [0m[0mModified binary dependencies: Set()[0m
-[0m[[0m[0mdebug[0m] [0m[0mInitial directly invalidated classes: Set(Complemento.Plan, Test.Test, Netflix.Netflix, Usuarios.UsuarioNormal, Usuarios.UsuarioAdmin)[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial directly invalidated classes: Set(Planes.PlanPremiun, Planes.Plan, Planes.PlanEstandar)[0m
 [0m[[0m[0mdebug[0m] [0m[0m[0m
 [0m[[0m[0mdebug[0m] [0m[0mSources indirectly invalidated by:[0m
 [0m[[0m[0mdebug[0m] [0m[0m	product: Set()[0m
 [0m[[0m[0mdebug[0m] [0m[0m	binary dep: Set()[0m
 [0m[[0m[0mdebug[0m] [0m[0m	external source: Set()[0m
-[0m[[0m[0mdebug[0m] [0m[0mAll initially invalidated classes: Set(Complemento.Plan, Test.Test, Netflix.Netflix, Usuarios.UsuarioNormal, Usuarios.UsuarioAdmin)[0m
-[0m[[0m[0mdebug[0m] [0m[0mAll initially invalidated sources:Set(C:\Users\Mejia\Desktop\POO-SCALA\Reto1\src\main\scala\Usuarios\UsuarioNormal.scala, C:\Users\Mejia\Desktop\POO-SCALA\Reto1\src\main\scala\Test\Test.scala, C:\Users\Mejia\Desktop\POO-SCALA\Reto1\src\main\scala\Planes\PlanPremiun.scala, C:\Users\Mejia\Desktop\POO-SCALA\Reto1\src\main\scala\Planes\Plan.scala, C:\Users\Mejia\Desktop\POO-SCALA\Reto1\src\main\scala\Usuarios\UsuarioAdmin.scala, C:\Users\Mejia\Desktop\POO-SCALA\Reto1\src\main\scala\Planes\PlanEstandar.scala, C:\Users\Mejia\Desktop\POO-SCALA\Reto1\src\main\scala\Planes\PlanBasico.scala, C:\Users\Mejia\Desktop\POO-SCALA\Reto1\src\main\scala\Netflix\Netflix.scala)[0m
-[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: Complemento.Plan, Test.Test, Netflix.Netflix, Usuarios.UsuarioNormal, Usuarios.UsuarioAdmin[0m
-[0m[[0m[0mdebug[0m] [0m[0mRecompiling all sources: number of invalidated sources > 50.0% of all sources[0m
-[0m[[0m[0minfo[0m] [0m[0mCompiling 11 Scala sources to C:\Users\Mejia\Desktop\POO-SCALA\Reto1\target\scala-2.12\classes ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mAll initially invalidated classes: Set(Planes.PlanPremiun, Planes.Plan, Planes.PlanEstandar)[0m
+[0m[[0m[0mdebug[0m] [0m[0mAll initially invalidated sources:Set(C:\Users\Mejia\Desktop\POO-SCALA\Reto1\src\main\scala\Planes\PlanPremiun.scala, C:\Users\Mejia\Desktop\POO-SCALA\Reto1\src\main\scala\Planes\Plan.scala, C:\Users\Mejia\Desktop\POO-SCALA\Reto1\src\main\scala\Planes\PlanBasico.scala, C:\Users\Mejia\Desktop\POO-SCALA\Reto1\src\main\scala\Planes\PlanEstandar.scala)[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: Planes.PlanPremiun, Planes.Plan, Planes.PlanEstandar[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding Planes.PlanEstandar by Planes.Plan[0m
+[0m[[0m[0minfo[0m] [0m[0mCompiling 4 Scala sources to C:\Users\Mejia\Desktop\POO-SCALA\Reto1\target\scala-2.12\classes ...[0m
 [0m[[0m[0mdebug[0m] [0m[0mGetting org.scala-sbt:compiler-bridge_2.12:1.3.5:compile for Scala 2.12.10[0m
 [0m[[0m[0mdebug[0m] [0m[0mGetting org.scala-sbt:compiler-bridge_2.12:1.3.5:compile for Scala 2.12.10[0m
-[0m[[0m[0mdebug[0m] [0m[0m[zinc] Running cached compiler 3d781207 for Scala compiler version 2.12.10[0m
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] Running cached compiler 4cbe6bbb for Scala compiler version 2.12.10[0m
 [0m[[0m[0mdebug[0m] [0m[0m[zinc] The Scala compiler is invoked with:[0m
 [0m[[0m[0mdebug[0m] [0m[0m	-bootclasspath[0m
 [0m[[0m[0mdebug[0m] [0m[0m	C:\Users\Mejia\.sbt\boot\scala-2.12.10\lib\scala-library.jar[0m
 [0m[[0m[0mdebug[0m] [0m[0m	-classpath[0m
 [0m[[0m[0mdebug[0m] [0m[0m	C:\Users\Mejia\Desktop\POO-SCALA\Reto1\target\scala-2.12\classes[0m
-[0m[[0m[0mdebug[0m] [0m[0mScala compilation took 2.407543999 s[0m
+[0m[[0m[0mdebug[0m] [0m[0mScala compilation took 0.6248216 s[0m
 [0m[[0m[0mdebug[0m] [0m[0mDone compiling.[0m
-[0m[[0m[0mdebug[0m] [0m[0mInvalidating (transitively) by inheritance from Netflix.Netflix...[0m
-[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: Netflix.Netflix[0m
-[0m[[0m[0mdebug[0m] [0m[0mInvalidated by transitive inheritance dependency: Set(Netflix.Netflix)[0m
-[0m[[0m[0mdebug[0m] [0m[0mNone of the modified names appears in source file of Usuarios.UsuarioAdmin. This dependency is not being considered for invalidation.[0m
-[0m[[0m[0mdebug[0m] [0m[0mChange NamesChange(Netflix.Netflix,ModifiedNames(changes = UsedName(_planes,[Default]))) invalidates 1 classes due to The Netflix.Netflix has the following regular definitions changed:[0m
-[0m[[0m[0mdebug[0m] [0m[0m	UsedName(_planes,[Default]).[0m
-[0m[[0m[0mdebug[0m] [0m[0m	> by transitive inheritance: Set(Netflix.Netflix)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	> [0m
-[0m[[0m[0mdebug[0m] [0m[0m	> [0m
-[0m[[0m[0mdebug[0m] [0m[0m        [0m
-[0m[[0m[0mdebug[0m] [0m[0mInvalidating (transitively) by inheritance from Complemento.Plan...[0m
-[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: Complemento.Plan[0m
-[0m[[0m[0mdebug[0m] [0m[0mInvalidated by transitive inheritance dependency: Set(Complemento.Plan)[0m
-[0m[[0m[0mdebug[0m] [0m[0mChange NamesChange(Complemento.Plan,ModifiedNames(changes = UsedName(##,[Default]), UsedName(notify,[Default]), UsedName(_descripcion,[Default]), UsedName(synchronized,[Default]), UsedName(_precio,[Default]), UsedName(finalize,[Default]), UsedName(hashCode,[Default]), UsedName(getClass,[Default]), UsedName(isInstanceOf,[Default]), UsedName(==,[Default]), UsedName($isInstanceOf,[Default]), UsedName(clone,[Default]), UsedName(!=,[Default]), UsedName(wait,[Default]), UsedName($asInstanceOf,[Default]), UsedName(Plan,[Default]), UsedName(toString,[Default]), UsedName(Complemento;Plan;init;,[Default]), UsedName(_nombre,[Default]), UsedName(equals,[Default]), UsedName(notifyAll,[Default]), UsedName(eq,[Default]), UsedName(asInstanceOf,[Default]), UsedName(ne,[Default]))) invalidates 1 classes due to The Complemento.Plan has the following regular definitions changed:[0m
-[0m[[0m[0mdebug[0m] [0m[0m	UsedName(##,[Default]), UsedName(notify,[Default]), UsedName(_descripcion,[Default]), UsedName(synchronized,[Default]), UsedName(_precio,[Default]), UsedName(finalize,[Default]), UsedName(hashCode,[Default]), UsedName(getClass,[Default]), UsedName(isInstanceOf,[Default]), UsedName(==,[Default]), UsedName($isInstanceOf,[Default]), UsedName(clone,[Default]), UsedName(!=,[Default]), UsedName(wait,[Default]), UsedName($asInstanceOf,[Default]), UsedName(Plan,[Default]), UsedName(toString,[Default]), UsedName(Complemento;Plan;init;,[Default]), UsedName(_nombre,[Default]), UsedName(equals,[Default]), UsedName(notifyAll,[Default]), UsedName(eq,[Default]), UsedName(asInstanceOf,[Default]), UsedName(ne,[Default]).[0m
-[0m[[0m[0mdebug[0m] [0m[0m	> by transitive inheritance: Set(Complemento.Plan)[0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidating (transitively) by inheritance from Planes.PlanPremiun...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: Planes.PlanPremiun[0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidated by transitive inheritance dependency: Set(Planes.PlanPremiun)[0m
+[0m[[0m[0mdebug[0m] [0m[0mChange NamesChange(Planes.PlanPremiun,ModifiedNames(changes = UsedName(_precio,[Default]), UsedName(_pelicula_en_HD,[Default]), UsedName(_cantidad_descargas,[Default]), UsedName(_reproduccion,[Default]), UsedName(_pelicula_en_ULTRA_HD,[Default]), UsedName(_pelicula_sin_HD,[Default]), UsedName(_pantallas,[Default]))) invalidates 1 classes due to The Planes.PlanPremiun has the following regular definitions changed:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	UsedName(_precio,[Default]), UsedName(_pelicula_en_HD,[Default]), UsedName(_cantidad_descargas,[Default]), UsedName(_reproduccion,[Default]), UsedName(_pelicula_en_ULTRA_HD,[Default]), UsedName(_pelicula_sin_HD,[Default]), UsedName(_pantallas,[Default]).[0m
+[0m[[0m[0mdebug[0m] [0m[0m	> by transitive inheritance: Set(Planes.PlanPremiun)[0m
 [0m[[0m[0mdebug[0m] [0m[0m	> [0m
 [0m[[0m[0mdebug[0m] [0m[0m	> [0m
 [0m[[0m[0mdebug[0m] [0m[0m        [0m
 [0m[[0m[0mdebug[0m] [0m[0mInvalidating (transitively) by inheritance from Planes.Plan...[0m
 [0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: Planes.Plan[0m
-[0m[[0m[0mdebug[0m] [0m[0mInvalidated by transitive inheritance dependency: Set(Planes.Plan)[0m
-[0m[[0m[0mdebug[0m] [0m[0mThe following modified names cause invalidation of Usuarios.UsuarioNormal: Set(UsedName(Plan,[Default]))[0m
-[0m[[0m[0mdebug[0m] [0m[0mThe following modified names cause invalidation of Netflix.Netflix: Set(UsedName(==,[Default]), UsedName(Plan,[Default]))[0m
-[0m[[0m[0mdebug[0m] [0m[0mThe following modified names cause invalidation of Test.Test: Set(UsedName(Planes;Plan;init;,[Default]), UsedName(Plan,[Default]))[0m
-[0m[[0m[0mdebug[0m] [0m[0mChange NamesChange(Planes.Plan,ModifiedNames(changes = UsedName(##,[Default]), UsedName(notify,[Default]), UsedName(_descripcion,[Default]), UsedName(synchronized,[Default]), UsedName(_precio,[Default]), UsedName(finalize,[Default]), UsedName(Planes;Plan;init;,[Default]), UsedName(hashCode,[Default]), UsedName(getClass,[Default]), UsedName(isInstanceOf,[Default]), UsedName(==,[Default]), UsedName($isInstanceOf,[Default]), UsedName(clone,[Default]), UsedName(!=,[Default]), UsedName(wait,[Default]), UsedName($asInstanceOf,[Default]), UsedName(Plan,[Default]), UsedName(toString,[Default]), UsedName(_nombre,[Default]), UsedName(equals,[Default]), UsedName(notifyAll,[Default]), UsedName(eq,[Default]), UsedName(asInstanceOf,[Default]), UsedName(ne,[Default]))) invalidates 4 classes due to The Planes.Plan has the following regular definitions changed:[0m
-[0m[[0m[0mdebug[0m] [0m[0m	UsedName(##,[Default]), UsedName(notify,[Default]), UsedName(_descripcion,[Default]), UsedName(synchronized,[Default]), UsedName(_precio,[Default]), UsedName(finalize,[Default]), UsedName(Planes;Plan;init;,[Default]), UsedName(hashCode,[Default]), UsedName(getClass,[Default]), UsedName(isInstanceOf,[Default]), UsedName(==,[Default]), UsedName($isInstanceOf,[Default]), UsedName(clone,[Default]), UsedName(!=,[Default]), UsedName(wait,[Default]), UsedName($asInstanceOf,[Default]), UsedName(Plan,[Default]), UsedName(toString,[Default]), UsedName(_nombre,[Default]), UsedName(equals,[Default]), UsedName(notifyAll,[Default]), UsedName(eq,[Default]), UsedName(asInstanceOf,[Default]), UsedName(ne,[Default]).[0m
-[0m[[0m[0mdebug[0m] [0m[0m	> by transitive inheritance: Set(Planes.Plan)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	> [0m
-[0m[[0m[0mdebug[0m] [0m[0m	> by member reference: Set(Usuarios.UsuarioNormal, Netflix.Netflix, Test.Test)[0m
-[0m[[0m[0mdebug[0m] [0m[0m        [0m
-[0m[[0m[0mdebug[0m] [0m[0mInvalidating (transitively) by inheritance from Usuarios.UsuarioNormal...[0m
-[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: Usuarios.UsuarioNormal[0m
-[0m[[0m[0mdebug[0m] [0m[0mInvalidated by transitive inheritance dependency: Set(Usuarios.UsuarioNormal)[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding Planes.PlanPremiun by Planes.Plan[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding Planes.PlanBasico by Planes.Plan[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding Planes.PlanEstandar by Planes.Plan[0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidated by transitive inheritance dependency: Set(Planes.PlanBasico, Planes.Plan, Planes.PlanEstandar, Planes.PlanPremiun)[0m
+[0m[[0m[0mdebug[0m] [0m[0mNone of the modified names appears in source file of Planes.PlanPremiun. This dependency is not being considered for invalidation.[0m
+[0m[[0m[0mdebug[0m] [0m[0mNone of the modified names appears in source file of Test.Test. This dependency is not being considered for invalidation.[0m
+[0m[[0m[0mdebug[0m] [0m[0mNone of the modified names appears in source file of Planes.PlanBasico. This dependency is not being considered for invalidation.[0m
 [0m[[0m[0mdebug[0m] [0m[0mNone of the modified names appears in source file of Netflix.Netflix. This dependency is not being considered for invalidation.[0m
-[0m[[0m[0mdebug[0m] [0m[0mNone of the modified names appears in source file of Usuarios.UsuarioAdmin. This dependency is not being considered for invalidation.[0m
-[0m[[0m[0mdebug[0m] [0m[0mChange NamesChange(Usuarios.UsuarioNormal,ModifiedNames(changes = UsedName(Usuarios;UsuarioNormal;init;,[Default]))) invalidates 1 classes due to The Usuarios.UsuarioNormal has the following regular definitions changed:[0m
-[0m[[0m[0mdebug[0m] [0m[0m	UsedName(Usuarios;UsuarioNormal;init;,[Default]).[0m
-[0m[[0m[0mdebug[0m] [0m[0m	> by transitive inheritance: Set(Usuarios.UsuarioNormal)[0m
+[0m[[0m[0mdebug[0m] [0m[0mNone of the modified names appears in source file of Planes.PlanEstandar. This dependency is not being considered for invalidation.[0m
+[0m[[0m[0mdebug[0m] [0m[0mNone of the modified names appears in source file of Usuarios.UsuarioNormal. This dependency is not being considered for invalidation.[0m
+[0m[[0m[0mdebug[0m] [0m[0mChange NamesChange(Planes.Plan,ModifiedNames(changes = UsedName(_precio,[Default]), UsedName(_pelicula_en_HD,[Default]), UsedName(_cantidad_descargas,[Default]), UsedName(_reproduccion,[Default]), UsedName(_pelicula_en_ULTRA_HD,[Default]), UsedName(_pelicula_sin_HD,[Default]), UsedName(_pantallas,[Default]))) invalidates 4 classes due to The Planes.Plan has the following regular definitions changed:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	UsedName(_precio,[Default]), UsedName(_pelicula_en_HD,[Default]), UsedName(_cantidad_descargas,[Default]), UsedName(_reproduccion,[Default]), UsedName(_pelicula_en_ULTRA_HD,[Default]), UsedName(_pelicula_sin_HD,[Default]), UsedName(_pantallas,[Default]).[0m
+[0m[[0m[0mdebug[0m] [0m[0m	> by transitive inheritance: Set(Planes.PlanBasico, Planes.Plan, Planes.PlanEstandar, Planes.PlanPremiun)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	> [0m
+[0m[[0m[0mdebug[0m] [0m[0m	> [0m
+[0m[[0m[0mdebug[0m] [0m[0m        [0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidating (transitively) by inheritance from Planes.PlanEstandar...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: Planes.PlanEstandar[0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidated by transitive inheritance dependency: Set(Planes.PlanEstandar)[0m
+[0m[[0m[0mdebug[0m] [0m[0mChange NamesChange(Planes.PlanEstandar,ModifiedNames(changes = UsedName(_precio,[Default]), UsedName(_pelicula_en_HD,[Default]), UsedName(_cantidad_descargas,[Default]), UsedName(_reproduccion,[Default]), UsedName(_pelicula_en_ULTRA_HD,[Default]), UsedName(_pelicula_sin_HD,[Default]), UsedName(_pantallas,[Default]))) invalidates 1 classes due to The Planes.PlanEstandar has the following regular definitions changed:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	UsedName(_precio,[Default]), UsedName(_pelicula_en_HD,[Default]), UsedName(_cantidad_descargas,[Default]), UsedName(_reproduccion,[Default]), UsedName(_pelicula_en_ULTRA_HD,[Default]), UsedName(_pelicula_sin_HD,[Default]), UsedName(_pantallas,[Default]).[0m
+[0m[[0m[0mdebug[0m] [0m[0m	> by transitive inheritance: Set(Planes.PlanEstandar)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	> [0m
+[0m[[0m[0mdebug[0m] [0m[0m	> [0m
+[0m[[0m[0mdebug[0m] [0m[0m        [0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidating (transitively) by inheritance from Planes.PlanBasico...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: Planes.PlanBasico[0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidated by transitive inheritance dependency: Set(Planes.PlanBasico)[0m
+[0m[[0m[0mdebug[0m] [0m[0mChange NamesChange(Planes.PlanBasico,ModifiedNames(changes = UsedName(##,[Default]), UsedName(notify,[Default]), UsedName(_descripcion,[Default]), UsedName(synchronized,[Default]), UsedName(_precio,[Default]), UsedName(finalize,[Default]), UsedName(hashCode,[Default]), UsedName(getClass,[Default]), UsedName(_pelicula_en_HD,[Default]), UsedName(isInstanceOf,[Default]), UsedName(==,[Default]), UsedName($isInstanceOf,[Default]), UsedName(_cantidad_descargas,[Default]), UsedName(clone,[Default]), UsedName(Planes;PlanBasico;init;,[Default]), UsedName(!=,[Default]), UsedName(PlanBasico,[Default]), UsedName(wait,[Default]), UsedName($asInstanceOf,[Default]), UsedName(_pelicula_en_ULTRA_HD,[Default]), UsedName(toString,[Default]), UsedName(_nombre,[Default]), UsedName(equals,[Default]), UsedName(_pelicula_sin_HD,[Default]), UsedName(notifyAll,[Default]), UsedName(_pantallas,[Default]), UsedName(eq,[Default]), UsedName(asInstanceOf,[Default]), UsedName(ne,[Default]))) invalidates 1 classes due to The Planes.PlanBasico has the following regular definitions changed:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	UsedName(##,[Default]), UsedName(notify,[Default]), UsedName(_descripcion,[Default]), UsedName(synchronized,[Default]), UsedName(_precio,[Default]), UsedName(finalize,[Default]), UsedName(hashCode,[Default]), UsedName(getClass,[Default]), UsedName(_pelicula_en_HD,[Default]), UsedName(isInstanceOf,[Default]), UsedName(==,[Default]), UsedName($isInstanceOf,[Default]), UsedName(_cantidad_descargas,[Default]), UsedName(clone,[Default]), UsedName(Planes;PlanBasico;init;,[Default]), UsedName(!=,[Default]), UsedName(PlanBasico,[Default]), UsedName(wait,[Default]), UsedName($asInstanceOf,[Default]), UsedName(_pelicula_en_ULTRA_HD,[Default]), UsedName(toString,[Default]), UsedName(_nombre,[Default]), UsedName(equals,[Default]), UsedName(_pelicula_sin_HD,[Default]), UsedName(notifyAll,[Default]), UsedName(_pantallas,[Default]), UsedName(eq,[Default]), UsedName(asInstanceOf,[Default]), UsedName(ne,[Default]).[0m
+[0m[[0m[0mdebug[0m] [0m[0m	> by transitive inheritance: Set(Planes.PlanBasico)[0m
 [0m[[0m[0mdebug[0m] [0m[0m	> [0m
 [0m[[0m[0mdebug[0m] [0m[0m	> [0m
 [0m[[0m[0mdebug[0m] [0m[0m        [0m
 [0m[[0m[0mdebug[0m] [0m[0mNew invalidations:[0m
-[0m[[0m[0mdebug[0m] [0m[0m	Set(Test.Test)[0m
-[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: Test.Test[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: [0m
 [0m[[0m[0mdebug[0m] [0m[0mPreviously invalidated, but (transitively) depend on new invalidations:[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Set()[0m
 [0m[[0m[0mdebug[0m] [0m[0mNo classes were invalidated.[0m
