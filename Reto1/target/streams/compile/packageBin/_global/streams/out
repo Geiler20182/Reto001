@@ -4,8 +4,6 @@
 [0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\Mejia\Desktop\POO-SCALA\Reto1\target\scala-2.12\classes\Complemento[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Complemento\Pelicula.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\Mejia\Desktop\POO-SCALA\Reto1\target\scala-2.12\classes\Complemento\Pelicula.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	Complemento\Plan.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\Mejia\Desktop\POO-SCALA\Reto1\target\scala-2.12\classes\Complemento\Plan.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Complemento\Registro.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\Mejia\Desktop\POO-SCALA\Reto1\target\scala-2.12\classes\Complemento\Registro.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Netflix[0m
@@ -14,6 +12,16 @@
 [0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\Mejia\Desktop\POO-SCALA\Reto1\target\scala-2.12\classes\Netflix\Netflix$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Netflix\Netflix.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\Mejia\Desktop\POO-SCALA\Reto1\target\scala-2.12\classes\Netflix\Netflix.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Planes[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\Mejia\Desktop\POO-SCALA\Reto1\target\scala-2.12\classes\Planes[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Planes\Plan.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\Mejia\Desktop\POO-SCALA\Reto1\target\scala-2.12\classes\Planes\Plan.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Planes\PlanBasico.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\Mejia\Desktop\POO-SCALA\Reto1\target\scala-2.12\classes\Planes\PlanBasico.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Planes\PlanEstandar.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\Mejia\Desktop\POO-SCALA\Reto1\target\scala-2.12\classes\Planes\PlanEstandar.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Planes\PlanPremiun.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\Mejia\Desktop\POO-SCALA\Reto1\target\scala-2.12\classes\Planes\PlanPremiun.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Test[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\Mejia\Desktop\POO-SCALA\Reto1\target\scala-2.12\classes\Test[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Test\Test$.class[0m
