@@ -10,6 +10,7 @@ class Pelicula {
     private var _duracion : Double = _
     private var _precio : Double = _
     private var _vistas : Int = _
+    private var _descargas : Int = _
 
     def this(nuevo_nombre : String, nuevos_generos : List[String], nueva_duracion : Double, nuevo_precio : Double) {
        
@@ -19,6 +20,7 @@ class Pelicula {
         _duracion =  nueva_duracion
         _precio = nuevo_precio
         _vistas = 0
+        _descargas = 0
     }
 
     def getNombre() : String = _nombre

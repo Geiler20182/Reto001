@@ -17,57 +17,123 @@ class UsuarioAdmin extends Usuario {
         _contrasena = nueva_contrasena
     }
 
-    def agregarPelicula(nueva_pelicula : Pelicula ) : Unit = {
+    def agregarPelicula(obj_netflix : Netflix, nueva_pelicula : Pelicula ) : Netflix = {
 
-        Netflix._peliculas = nueva_pelicula :: Netflix._peliculas
+        obj_netflix.agregarPelicula(nueva_pelicula)
+
+        return obj_netflix
     }
 
-    def eliminarPelicula(nombre_pelicula : String ) : Unit = {
+    def eliminarPelicula(obj_netflix : Netflix, nombre_pelicula : String ) : Netflix = {
 
-        var pelicula_temp : List[Pelicula] = List()
+        var nuevo_catalogo : List[Pelicula] = List()
 
-        for (pelicula <- Netflix._peliculas ) {
+        for (pelicula <- obj_netflix.getPeliculas() ) {
 
             if (pelicula.getNombre() != nombre_pelicula) {
-
-                pelicula_temp = pelicula :: pelicula_temp
+               nuevo_catalogo = pelicula :: nuevo_catalogo
             }
         }
-
-        Netflix._peliculas = pelicula_temp 
+    
+        obj_netflix.setPeliculas(nuevo_catalogo)
+        
+        return  obj_netflix
     } 
 
-    def eliminarUsuario(nombre_usuario :  String ) : Unit = {
+    def eliminarUsuario(obj_netflix : Netflix, nombre_usuario :  String ) : Netflix = {
         
-        var usuario_temp : List[UsuarioNormal] =  List()
-
-        for (usuario <- Netflix._usuarios_normales) {
-
-            if (usuario.getNombre() !=  nombre_usuario) {
-                
-                usuario_temp = usuario :: usuario_temp
-            }
-        }
-
-        Netflix._usuarios_normales = usuario_temp        
-    }
-
-    def inhabilitarUsuario(nombre_usuario :  String ) : Unit = {
+        var nuevo_catalogo : List[UsuarioNormal] =  List()
 
         breakable {
 
-            for (usuario <- Netflix._usuarios_normales ) {
+            for (usuario <- obj_netflix.getUsuariosNormales() ) {
+                
+                 var meses_en_mora : Int = verificarPago(obj_netflix, nombre_usuario)
+                if ( !( (usuario.getNombre() ==  nombre_usuario) && (meses_en_mora >= 4) ) ) {    
+                    nuevo_catalogo = usuario :: nuevo_catalogo
+                }
 
-                if (usuario.getNombre() ==  nombre_usuario) {
-                    usuario._estado = true   
+            }
+
+        }
+
+        obj_netflix.setUsuariosNormales(nuevo_catalogo)
+
+        return obj_netflix
+
+    }
+
+    def inhabilitarUsuario(obj_netflix : Netflix, nombre_usuario : String ) : Netflix = {
+
+        breakable {
+
+            for (usuario <- obj_netflix.getUsuariosNormales()  ) {
+
+                var meses_en_mora : Int = verificarPago(obj_netflix, nombre_usuario)
+                if ( (usuario.getNombre() ==  nombre_usuario) && (meses_en_mora >= 2  && meses_en_mora < 4 ) ) {
+                    usuario.setEstado(true)
                     break
                 }
             }
 
         }
-    }
 
-    /* def peliculasMasVistas() : List[Pelicula] = {
+        return obj_netflix
+    } 
+    
+    def verificarPago(obj_netflix : Netflix, nombre_usuario : String) : Int = {
+
+        /* Sólo verifica si el usuario esta en mora */
+        
+        var fecha_actual : String = "" + java.time.LocalDate.now
+        var meses_en_mora : Int = 0
+
+        breakable {
+
+            for (usuario <- obj_netflix.getUsuariosNormales() ) {
+
+                if (usuario.getNombre() == nombre_usuario ) {
+                    
+                    for (factura <- obj_netflix.getFacturas() ) {
+
+                        if (factura.getIdCliente() == usuario.getIdUsuario() ) {
+
+                            var fecha_vencimiento : String = factura.getFechaVencimiento()
+                            var mes_vencimiento : Int = ("" + fecha_vencimiento.charAt(5) + "" + fecha_vencimiento.charAt(6) + "").toInt
+                            
+                            var fecha_actual : String = ("" + java.time.LocalDate.now)
+                            var mes_actual : Int = ("" + fecha_actual.charAt(5) + "" + fecha_actual.charAt(6) + "").toInt
+
+
+                            if ( mes_actual != mes_vencimiento ) {
+
+                                meses_en_mora = (12 - mes_actual) + mes_vencimiento
+                                
+                                if (meses_en_mora > 12 && mes_actual < mes_vencimiento )  {
+
+                                    meses_en_mora = meses_en_mora - 12
+                                }
+                                
+                            }
+
+                            else {
+
+                                meses_en_mora = 0
+                            }
+                            
+                            return meses_en_mora
+                        }
+                    }
+
+                } 
+            
+            }
+        }
+
+
+        return meses_en_mora
+    }
+    /*def peliculasMasVistas() : List[Pelicula] = {
 
 
     }

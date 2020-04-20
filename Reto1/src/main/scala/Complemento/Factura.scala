@@ -28,8 +28,8 @@ class Factura {
         _descripcion = nueva_descripcion :: _descripcion
     }
     
-    def idCliente() : String = _id_cliente
-    def idFactura() : Int = _id_factura
+    def getIdCliente() : String = _id_cliente
+    def getIdFactura() : Int = _id_factura
     def getFechaExpedicion() : String = _fecha_expedicion
     def getFechaVencimiento() : String = _fecha_vencimiento
     def getDescripcion() : List[String] = _descripcion

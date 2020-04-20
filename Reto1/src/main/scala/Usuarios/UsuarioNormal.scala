@@ -7,8 +7,9 @@ class UsuarioNormal extends Usuario {
 
     private var _mora : Boolean = _
     private var _plan : Plan = _
-    private var _peliculas_descargadas : List[Pelicula] = List()
-    var _estado : Boolean = _
+    private var _estado : Boolean = _
+
+    def setEstado(nuevo_estado : Boolean) : Unit = _estado = nuevo_estado
 
     def this(nuevo_correo : String, nueva_contrasena : String, nuevo_nombre : String, nuevo_plan : Plan) {   
        
@@ -20,6 +21,9 @@ class UsuarioNormal extends Usuario {
         _plan = nuevo_plan
         _estado = true
     }
+    
+    def getPlan() : Plan = _plan
+
     
     def pagarFactura() : Unit = {
 

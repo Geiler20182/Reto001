@@ -6,6 +6,7 @@ import Complemento._
 import Planes._
 import java.time._
 import java.util.Calendar
+
 object Test {
 
     def main(args: Array[String]) : Unit = {
@@ -15,11 +16,9 @@ object Test {
         var nuevo_usuario : UsuarioAdmin = new UsuarioAdmin("Geiler@org", "%$#", "Geiler")
         var nueva_factura : Factura = new Factura
         println("=======================")
-
         println("=======================")
 
 
     }   
-
 
 }

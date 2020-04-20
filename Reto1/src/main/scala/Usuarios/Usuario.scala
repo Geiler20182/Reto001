@@ -2,6 +2,8 @@ package Usuarios
 
 import Complemento._
 import Planes._
+import Netflix._
+
 import scala.util.Random
 
 class Usuario {
@@ -10,13 +12,14 @@ class Usuario {
     protected var _nombre :  String = _
     protected var _correo :  String = _
     protected var _contrasena : String = _
+    protected var _descargas : List[Pelicula] = List()
     
-
     /* Getters */
 
     def getNombre() : String = _nombre
     def getCorreo() : String = _correo
     def getContrasena() : String = _contrasena
+    def getIdUsuario() : String = _id_usario
 
     def generarID() : String = {
 
@@ -26,4 +29,13 @@ class Usuario {
     }    
     
 
+    def descargarPelicula(nombre_peli :  String) : Unit =  { 
+        
+       // Netflix.solicitudDescarga(nombre_peli, _id_usario)
+    }
+
+   def guardarPelicula(nueva_pelicula : Pelicula ) : Unit = {
+
+        _descargas = nueva_pelicula :: _descargas
+    }
 }
